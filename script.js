@@ -37,6 +37,44 @@ function getRandomNumber() {
     return randomNumber;
 }
 
+// Function to get the human player's choice
+function getHumanChoice() {
+    // Prompt the user to enter their choice (rock, paper, or scissors)
+    let humanInput = prompt("Enter your choice:");
+
+    // Check if the input is "rock"
+    if (humanInput === "rock") {
+        return humanInput;
+    }
+
+    // Check if the input is "paper"
+    else if (humanInput === "paper") {
+        return humanInput;
+    }
+
+    // Check if the input is "scissors"
+    else if (humanInput === "scissors") {
+        return humanInput;
+    }
+
+    // If input doesn't match any valid option, nothing is returned (undefined)
+}
+
+// Call the function to prompt the user and get their choice
+getHumanChoice();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
