@@ -1,3 +1,7 @@
+// Declare and initialize two global scope variables to track players' score
+let humanScore = 0;
+let computerScore = 0;
+
 // Logic to get the computer choice based on a random number
 
 // Function to generate the computer's choice (rock, paper, or scissors)
